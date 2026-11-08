@@ -1096,3 +1096,27 @@ PRODUCT_PACKAGES += \
     batterysecret \
     vendor.qti.camera.provider@2.7-service_64 \
     vendor.xiaomi.hardware.quickcamera@1.0-service
+
+# Firmware images are packaged by uwu_prebuilt_image.
+PRODUCT_PACKAGES += \
+    abl \
+    aop \
+    aop_config \
+    bluetooth \
+    cpucp \
+    devcfg \
+    dsp \
+    featenabler \
+    hyp \
+    imagefv \
+    keymaster \
+    modem \
+    qupfw \
+    shrm \
+    tz \
+    uefi \
+    uefisecapp \
+    vm-bootsys \
+    xbl \
+    xbl_config \
+    xbl_ramdump
