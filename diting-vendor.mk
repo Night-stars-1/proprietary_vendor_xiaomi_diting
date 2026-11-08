@@ -1097,6 +1097,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.camera.provider@2.7-service_64 \
     vendor.xiaomi.hardware.quickcamera@1.0-service
 
+ifeq ($(UWU_SOONG_ONLY_BUILD),true)
+
 # Firmware images are packaged by uwu_prebuilt_image.
 PRODUCT_PACKAGES += \
     abl \
@@ -1120,3 +1122,4 @@ PRODUCT_PACKAGES += \
     xbl \
     xbl_config \
     xbl_ramdump
+endif

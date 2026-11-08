@@ -1,4 +1,4 @@
-// Firmware prebuilts retain the reviewed SHA-1 checks in both build backends.
+// Firmware image SHA-1 values must match the corresponding OTA partitions.
 
 uwu_prebuilt_image {
     name: "abl",

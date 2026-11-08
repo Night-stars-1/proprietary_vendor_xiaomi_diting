@@ -25,6 +25,8 @@ AB_OTA_PARTITIONS += \
     xbl_config \
     xbl_ramdump
 
+ifeq ($(UWU_SOONG_ONLY_BUILD),true)
+
 # Firmware images are packaged by uwu_prebuilt_image.
 AB_OTA_RADIO_PARTITIONS += \
     abl \
@@ -48,3 +50,4 @@ AB_OTA_RADIO_PARTITIONS += \
     xbl \
     xbl_config \
     xbl_ramdump
+endif
